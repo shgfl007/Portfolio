@@ -1,9 +1,7 @@
-<div class="container">
-  <footer>
-    <p class="text-muted credit">
-      &copy; {{ site.time | date: '%Y' }} {{ site.name }} &middot;
-      <a href="https://github.com/arnp/herring-cove"> Herring Cove for Jekyll </a>
-      {{ site.time }}
+<footer class="footer-main">
+    {{ site.name }} © {{ site.time | date: '%Y' }} <a class="link" href="{{ site.url }}/feed.xml" target="_blank"><svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg></a>
+
+    <p class="extra">
+        <a class="link" href="https://github.com/sergiokopplin/indigo">Indigo theme</a> by <a class="link" href="http://koppl.in">Kopplin</a>
     </p>
-  </footer>
-</div>
+</footer>
